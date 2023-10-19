@@ -1,0 +1,25 @@
+1. Introdução ao MVC e Node.js
+   1.1 Node.js é como se fosse um superpoder que permite ao JavaScript, uma linguagem que normalmente só funciona nos navegadores, operar no seu computador como qualquer outro software. O NPM é uma ferramenta que acompanha o Node.js, permitindo que você instale e gerencie pacotes adicionais (pense neles como plugins ou extensões) para incrementar seu projeto.
+   
+   1.2 MVC é uma técnica que nos ajuda a organizar nosso código. Imagine que você está fazendo um sanduíche; o "Modelo" é a receita, o "Controlador" é o processo de montar e cozinhar, e a "Visão" é a apresentação final do prato.
+
+2. Configuração Inicial
+   2.1 Ao começar um novo projeto, usamos `npm init` para criar um arquivo chamado `package.json`, que é como o DNA do nosso projeto - ele diz quais ingredientes (ou pacotes) estamos usando. As "dependências" são pacotes que adicionamos ao projeto para nos ajudar em tarefas específicas, como express (um pacote que facilita a criação de servidores web).
+
+3. Delineando a Estrutura de Pastas MVC
+   3.1 Organizar o código é essencial para não nos perdermos. Criamos pastas específicas para o Modelo, Visão e Controlador. É como separar os ingredientes, ferramentas e instruções ao cozinhar; tudo fica mais fácil de encontrar e usar.
+
+4. Criando o Model
+   4.1 O "Modelo" é onde definimos a lógica e as funções do nosso projeto. No caso da calculadora, é aqui que definimos como somar, subtrair e fazer outras operações matemáticas.
+
+5. Construindo o Controlador
+   5.1 O "Controlador" é o maestro da nossa aplicação. Ele decide o que acontece quando o usuário clica em algo ou envia dados. Por exemplo, quando você insere números e clica em "somar", o controlador decide o que fazer com esses números e qual resultado mostrar.
+
+6. Concebendo a View
+   6.1 A "Visão" é como a nossa aplicação aparece e interage com o usuário. Usamos o EJS para criar uma página bonita que mostra botões, campos para inserir números e o resultado. É a parte visual que o usuário vê e toca.
+
+7. Integrando tudo
+   7.1 O arquivo `app.js` é como a cola que une todas as partes. Ele liga o Modelo, a Visão e o Controlador para que tudo funcione em harmonia. Quando rodamos este arquivo, toda a magia acontece.
+
+8. Execução e Demonstração
+   8.1 Por fim, mostramos a calculadora em ação! É aqui que vemos o fruto do nosso trabalho, onde o usuário pode inserir números, fazer operações e ver os resultados. Todo o fluxo, desde clicar nos botões até obter a resposta, é o resultado de todo o código que escrevemos.
